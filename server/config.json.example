@@ -7,7 +7,7 @@
   "PORT": 3000,
   "RETRY_WAIT": 5000,
   "DEFAULT_SUBMIT_WAIT": 500000,
-  "VALIDATOR_URL": "tcp://localhost:4004",
+  "VALIDATOR_URL": "tcp://0.0.0.0:4004",
 
   "DB_HOST": "localhost",
   "DB_PORT": 28015,

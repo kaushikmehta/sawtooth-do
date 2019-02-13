@@ -26,7 +26,7 @@ const {
   encodeTimestampedPayload
 } = require('../system/submit_utils')
 
-const SERVER = process.env.SERVER || 'http://localhost:3000'
+const SERVER = process.env.SERVER || 'http://0.0.0.0:3000'
 const DATA = process.env.DATA
 if (DATA.indexOf('.json') === -1) {
   throw new Error('Use the "DATA" environment variable to specify a JSON file')

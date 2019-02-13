@@ -35,7 +35,7 @@ const initConfigValue = (key, defaultValue = null) => {
 // Setup non-sensitive config variable with sensible defaults,
 // if not set in environment variables or config.json
 initConfigValue('RETRY_WAIT', 5000)
-initConfigValue('VALIDATOR_URL', 'tcp://localhost:4004')
+initConfigValue('VALIDATOR_URL', 'tcp://0.0.0.0:4004')
 initConfigValue('DB_HOST', 'localhost')
 initConfigValue('DB_PORT', 28015)
 initConfigValue('DB_NAME', 'supply_chain')
